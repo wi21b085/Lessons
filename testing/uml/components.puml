@@ -1,0 +1,12 @@
+@startuml
+
+[StationDataCollector]
+
+[Database]
+
+[Queue]
+
+[StationDataCollector] -(0- [Database]
+[StationDataCollector] -(0- [Queue]
+
+@enduml
